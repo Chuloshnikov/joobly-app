@@ -60,7 +60,7 @@ const DashboardPage = () => {
         );
     }
 
-     if (status !== "authenticated") {
+     if (status === "unauthenticated") {
         return redirect('/');
     } 
 

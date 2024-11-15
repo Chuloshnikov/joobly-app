@@ -1,5 +1,11 @@
 import DashboardPage from "@/lib/components/dashboard/DashboardPage";
 import { getServerSession } from "next-auth";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Joobly | Profile",
+	description: "user dashboard",
+};
 
 export default function Dashboard() {
   const session = getServerSession();
