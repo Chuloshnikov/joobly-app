@@ -516,12 +516,16 @@ export const CITIES = [
 	"Italian",
 	"Spanish",
 	"Dutch",
+	"Danish",
 	"Swedish",
 	"Finnish",
 	"Russian",
 	"Portuguese",
 	"Japanese",
 	"Indian",
+	"Turkish",
+	"Chinese",
+	"Norwegian"
   ];
 
   export const EXPERIENCE_LEVEL = [
