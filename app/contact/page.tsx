@@ -9,7 +9,6 @@ import {
 	INTERESTED_IN,
 	WORK_TYPES,
 } from "@/lib/constant/constants";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import FormSelect from "@/lib/components/select/select";
 import { Button } from "@mui/base";
 

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import jobSeekers from "@/public/images/job-seekers.svg";
 import jobPosters from "@/public/images/job-posters.svg";
 import styles from "./homePage.module.scss";
@@ -6,7 +5,6 @@ import Image from "next/image";
 
 import Button from "@/lib/components/button/button";
 import Footer from "@/app/footer";
-import TopHeader from "@/lib/components/header/header";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -25,7 +23,7 @@ export const metadata: Metadata = {
 	siteName: 'Joobly.cz',
 	images: [
 	  {
-		url: '/og-image.jpg', // Положи в public/og-image.jpg
+		url: '/favicon.ico',
 		width: 1200,
 		height: 630,
 		alt: 'Job search for expats in Czech Republic',
