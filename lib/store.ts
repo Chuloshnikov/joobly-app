@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { jobSlice } from '@/lib/features/jobSlice/jobSlice';
-import authSlice, { userSlice } from './features/authSlice/authSlice';
+import { userSlice } from './features/authSlice/authSlice';
 import { packageSlice } from './features/packageSlice/packageSlice';
 
 const store = configureStore({
